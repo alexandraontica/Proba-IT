@@ -1,0 +1,18 @@
+.footer {
+    background-color: #FF1F66;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 140px;
+}
+
+.logo {
+    max-width: 90px;
+    margin-right: 160px; 
+}
+
+.logo1 {
+    max-width: 90px; 
+}
+
