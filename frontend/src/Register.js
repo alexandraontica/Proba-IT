@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Register.css';
 
 export default function Login() {
@@ -43,7 +44,7 @@ export default function Login() {
               />
             </Form.Group>
           </Form>
-          <Button className="lastButton" variant="primary">Register</Button>
+          <Button className="lastButton" variant="primary" onClick={handleClose}>Register</Button>
         </Modal.Body>
         </Modal>
     </>

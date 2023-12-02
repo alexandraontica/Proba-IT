@@ -36,7 +36,7 @@ export default function Login() {
               />
             </Form.Group>
           </Form>
-          <Button className="lastButton" variant="primary">Login</Button>
+          <Button className="lastButton" variant="primary" onClick={handleClose}>Login</Button>
         </Modal.Body>
       </Modal>
     </>
