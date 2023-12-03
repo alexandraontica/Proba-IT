@@ -1,9 +1,10 @@
 import turtle from './turtle.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import BasicNavbar from './BasicNavbar';
+import BasicNavbar from './Navbar/BasicNavbar.js';
 import background from './background.png'
-import Footer from './Footer';
+import Footer from './Footer/Footer.js';
+import Poll from './Poll/Poll.js';
 
 function App() {
   return (
@@ -14,6 +15,22 @@ function App() {
           <p className="paragraph">Opiniile sunt mai importante ca niciodată. Platformele de sondaje permit organizatorilor să culeagă feedback direct de la audiența lor și să înțeleagă mai bine nevoile și dorințele acesteia.</p>
           <img src={turtle} className="App-logo myLogo" alt="logo" />
         </div>
+        <Poll
+          question="What's your favorite color?"
+          options={[
+            { id: 1, text: 'Red' },
+            { id: 2, text: 'Blue' },
+            { id: 3, text: 'Green' },
+          ]}
+        />
+        <Poll
+          question="What's your favorite color?"
+          options={[
+            { id: 1, text: 'Red' },
+            { id: 2, text: 'Blue' },
+            { id: 3, text: 'Green' },
+          ]}
+        />
         </header>
         <Footer/>
     </div>

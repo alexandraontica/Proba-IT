@@ -1,0 +1,40 @@
+.RegisterButton {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: #04395E;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.body {
+    background-color: #04395E;
+    color: white;
+    padding: 20px;
+}
+
+.modal-header {
+    border: none; 
+}
+
+.modal-header .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.mb-3 {
+    background-color: #04395E;
+    color: white;
+}
+
+.lastButton {
+    background-color: white;
+    border-color: white;
+    color: #04395E;
+    font-weight: 500;
+}
+  
