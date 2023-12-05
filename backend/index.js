@@ -28,6 +28,9 @@ app.use("/api/health", healthRoutes);
 const userRoutes = require("./routes/user.routes");
 app.use("/api/user", userRoutes);
 
+const pollRoutes = require("./routes/poll.routes");
+app.use("/api/poll", pollRoutes);
+
 server.listen(config.port, () => {
     console.log(`listening on localhost:${config.port}`);
 });
