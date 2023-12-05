@@ -15,6 +15,7 @@ function App() {
           <p className="paragraph">Opiniile sunt mai importante ca niciodată. Platformele de sondaje permit organizatorilor să culeagă feedback direct de la audiența lor și să înțeleagă mai bine nevoile și dorințele acesteia.</p>
           <img src={turtle} className="App-logo myLogo" alt="logo" />
         </div>
+        <div className='d-flex flex-row justify-content-evenly w-100' >
         <Poll
           question="What's your favorite color?"
           options={[
@@ -31,6 +32,7 @@ function App() {
             { id: 3, text: 'Green' },
           ]}
         />
+        </div>
         </header>
         <Footer/>
     </div>

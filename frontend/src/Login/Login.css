@@ -10,6 +10,8 @@
     background-color: #04395E;
     color: white;
     padding: 20px;
+    display: grid;
+    place-items: center; 
 }
 
 .modal-header {
@@ -26,10 +28,24 @@
     text-align: center;
 }
 
+.field {
+    background-color: #04395E;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-width: 5px;
+    margin-bottom: 5%;
+    height: 50px;   
+}
+
 .lastButton {
     background-color: white;
     border-color: white;
     color: #04395E;
     font-weight: 500;
+    margin-top: 5%;
 }
   
