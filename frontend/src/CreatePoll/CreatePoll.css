@@ -1,0 +1,81 @@
+.CreateButton {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: #04395E;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
+.create-poll-modal .modal-dialog {
+    margin: 0;
+    width: 90%;
+    max-width: 800px;
+    height: auto; 
+}
+
+.modal-content {
+    background-color: #04395E;
+    color: white;
+    padding: 20px;
+}
+
+.body {
+    background-color: #04395E;
+    color: white;
+    padding: 20px;
+    display: grid;
+    place-items: center; 
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-header .close {
+    top: 10px;
+    right: 10px;
+    border-color: #04395E;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.lastButton {
+    background-color: white;
+    border-color: white;
+    color: #04395E;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.field-create {
+    background-color: rgba(168, 167, 167, 0.595);
+    color: white;
+    border-top: 1px solid #FF1F66;
+    border-bottom: #04395E;
+    border-left: #04395E;
+    border-right: #04395E;
+    width: 350%;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-width: 5px;
+    height: 50px;   
+}
+
+.field-create::placeholder {
+    color: white;
+}
+
+.form {
+    display: grid;
+    place-items: center; 
+}

@@ -16,7 +16,7 @@ export default function Login() {
         Login
       </Button>
 
-      <Modal show={show} onHide={handleClose} backdrop="static" keybord={false}>
+      <Modal show={show} onHide={handleClose} backdrop="static">
         <Modal.Header className="body" closeButton/>
         <Modal.Body className="body">
         <Modal.Title>Login</Modal.Title>

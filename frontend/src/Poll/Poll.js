@@ -1,4 +1,3 @@
-// src/components/Poll.js
 import React, { useState } from 'react';
 import './Poll.css';
 

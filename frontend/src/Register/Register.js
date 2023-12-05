@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Register.css';
-import ReactDOM from 'react-dom';
 import { Formik, Field, Form } from 'formik';
 
 export default function Login() {
@@ -18,7 +17,7 @@ export default function Login() {
         Register
       </Button>
 
-      <Modal show={show} onHide={handleClose} backdrop="static" keybord={false}>
+      <Modal show={show} onHide={handleClose} backdrop="static" >
         <Modal.Header className="body" closeButton/>
         <Modal.Body className="body">
         <Modal.Title>Register</Modal.Title>

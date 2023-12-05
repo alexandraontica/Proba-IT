@@ -5,6 +5,7 @@ import myLogo from './myLogo.png';
 import Login from '../Login/Login.js';
 import Register from '../Register/Register.js';
 import './BasicNavbar.css';
+import CreatePoll from '../CreatePoll/CreatePoll.js';
 
 export default function BasicNavbar() {
   return (
@@ -16,6 +17,7 @@ export default function BasicNavbar() {
           <Nav>
             <Nav.Link style={{ marginLeft: "auto" }}><Login /></Nav.Link>
             <Nav.Link style={{ marginLeft: "auto" }}><Register /></Nav.Link>
+            <Nav.Link style={{ marginLeft: "auto" }}><CreatePoll /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
