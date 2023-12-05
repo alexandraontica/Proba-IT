@@ -1,0 +1,54 @@
+.poll-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 7%;
+  margin-bottom: 5%;
+  padding: 2%;
+  width: 30%;
+}
+
+.question {
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 5%;
+  text-align: left;
+  margin-top: 7%;
+}
+
+.make-choice {
+  font-size: 70%;
+  color: black;
+  text-align: left;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50%;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  cursor: pointer;
+}
+
+.bullet {
+  margin-right: 8px;
+  font-size: 18px;
+  width: 16px; 
+  height: 16px;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f0f0f0;
+  border: 3px solid #04395E
+}
+
+.selected .bullet {
+  background-color: #f0f0f0; 
+  color: #04395E;
+  border: 3px solid #04395E
+}
