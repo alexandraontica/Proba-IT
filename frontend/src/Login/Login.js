@@ -34,13 +34,13 @@ export default function Login() {
       <Form>
         <Field id="email"
           name="email"
-          placeholder="Email"
+          placeholder=" Email"
           type="email"
           className="field"/>
 
         <Field id="password" 
         name="password" 
-        placeholder="Password" 
+        placeholder=" Password" 
         type="password"
         className="field" />
         </Form>
